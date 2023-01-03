@@ -1,2 +1,3 @@
-i = "100,0,00"
-print(int(i.replace(',','')))
+import platform
+sy = platform.system()
+print(sy)

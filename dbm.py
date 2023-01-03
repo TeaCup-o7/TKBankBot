@@ -1,10 +1,15 @@
 
+import platform
 import sqlite3 as sql
 import datetime as dt
 
+sy = platform.system()
 
-#db = '/home/pi/Desktop/BankerBot2/Inv.db'
-db = 'Inv.db'
+if sy == 'Windows':
+    db = 'Inv.db'
+else:
+    db = '/home/pi/Desktop/BankerBot2/Inv.db'
+
 
 def getNow():
     atm = dt.now()

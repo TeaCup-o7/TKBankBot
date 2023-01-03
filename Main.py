@@ -10,7 +10,6 @@ import TimeDif
 import urllib3
 import requests
 
-import os
 key = key.GetKey()
 
 

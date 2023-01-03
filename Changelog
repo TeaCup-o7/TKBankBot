@@ -1,0 +1,17 @@
+12/25/22
+Added CrimsonDan to Alizarin channel
+Change "Person Bank Report" to "Person's Report"
+
+12/26/22
+Added channel for CrimsonDan reporting for Alizarin
+
+12/27/22
+Added channel for embiid reporting for Dushaun
+Added TimeDif.py and call in main.py to calculate diff between when the cycle ends and the next hour
+Changed space of report to appear after string to remove extra space.
+this allows the script to run on the hour regardless of how long the script spends running.
+
+1/3/22
+Added try except for web request in scrape.py 
+-if it fails it handles why and tries to try again.
+Added check for OS in dbm.py to check which OS for which .db file to use.
