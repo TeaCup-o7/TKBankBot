@@ -40,5 +40,5 @@ The bot will: Scrape http://users.nexustk.com/userfiles/YOURUSERNAMEHERE.html ev
 The bot will: Wait 15 seconds between each scrape and 3 seconds between sending messages in a channel.
 *** The bot can handle these operations a lot faster than 15 and 3 seconds. The delay is to not Discord API and webserver
 with lots of requests.
-Additionally, if the bot runs into a connection issue while scraping a page, it will wait 30 seconds
+Additionally, if the bot runs into a connection issue while scraping a page, it will wait 10 seconds
 before trying again until it is successful.
