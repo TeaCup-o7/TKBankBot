@@ -1,6 +1,5 @@
 import key
 import discord
-import ItemManager as im
 import asyncio
 import exceptionRecorder as er
 import scrape
@@ -96,7 +95,7 @@ async def on_ready():
 
 
 
-        #i = 3585 #waits i seconds after running to run again
+        #i = 3585 #waits i seconds after running to run again #this is just giving a fancy countdown timer
         i = TimeDif.getTimeDif() #gets dif between now and next hour in seconds
         while i > 0:
             await asyncio.sleep(1)

@@ -1,4 +1,5 @@
 import dbm
+#object to hold all the values
 class Items:
     def __init__(self):
         self.char = None

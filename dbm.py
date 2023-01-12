@@ -3,12 +3,14 @@ import platform
 import sqlite3 as sql
 import datetime as dt
 
-sy = platform.system()
+#ddl and dml
+
+sy = platform.system() #changes path to database depending on system type
 
 if sy == 'Windows':
-    db = 'Inv.db'
+    db = 'Inv.db' #location of windows db file (same as script folder)
 else:
-    db = '/home/pi/Desktop/BankerBot2/Inv.db'
+    db = '/home/pi/Desktop/BankerBot2/Inv.db' #location of the pi's db file
 
 
 def getNow():

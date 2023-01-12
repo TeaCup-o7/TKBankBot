@@ -1,6 +1,6 @@
 import traceback
 import datetime as dt
-
+#provides error reports during exceptions when these defs are called
 
 def getNow():
     date = dt.datetime.now()

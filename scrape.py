@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import Items
 import time
 
+#scrape the site for the given character - creates object and sets onhands - returns object
+
 def PullData(nameIn):
     print("Starting HTML scrape for {}.".format(nameIn))
     headers = {"User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36'}

@@ -1,4 +1,6 @@
 import datetime as dt
+#calculate time in seconds until the next hour.
+
 
 def getTimeDif():
     now = dt.datetime.now()
@@ -10,4 +12,4 @@ def getTimeDif():
     secs = dif.seconds
     return(secs)
 
-print(getTimeDif())
+#print(getTimeDif())
