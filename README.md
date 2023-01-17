@@ -1,9 +1,9 @@
-#Discord NexusTk Bank Bot
+Discord NexusTk Bank Bot
 
 Discord NexusTk Bank Bot is a Python 3.11 based web scraper used to track 
 changes in individual characters and report them into defined discord channels.
 
-Install
+Install:
 
 1) Set up a Discord application at https://discord.com/developers/applications
 2) Copy your API key from the Discord developer portal for your new application
