@@ -40,7 +40,7 @@ compare things to. However, if there are few enough items, it will report from z
 The bot will: Scrape http://users.nexustk.com/userfiles/YOURUSERNAMEHERE.html every hour.
 ***The user pages update once an hour.
 The bot will: Wait 15 seconds between each scrape and 3 seconds between sending messages in a channel.
-*** The bot can handle these operations a lot faster than 15 and 3 seconds. The delay is to not Discord API and webserver
+*** The bot can handle these operations a lot faster than 15 and 3 seconds. The delay is to not spam Discord API and TK webserver
 with lots of requests.
 Additionally, if the bot runs into a connection issue while scraping a page, it will wait 10 seconds
-before trying again until it is successful.
+before trying again until it is successful. These retry attempts will last forever until it is successful.
