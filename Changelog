@@ -19,3 +19,11 @@ Added check for OS in dbm.py to check which OS for which .db file to use.
 1/12/23
 Removed script that wasn't being used
 added some comments for documentation
+
+7/14/23
+Added MainGraph.py to report the gold balances that are logged at the end of each day. 
+This script will run on the first day of the month once the change of month is detected. 
+The script records when it logs, so it will not report twice in the same day.
+
+Edited Main.py call to report graphs after the gold balance has been logged after bootup.
+A report is sent for each character there is a graph reported for into each channel found in Channels.py
