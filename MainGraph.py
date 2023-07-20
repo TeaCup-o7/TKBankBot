@@ -13,7 +13,7 @@ from datetime import timedelta as td
 
 def main():
     tester = getLastRecord() #false means last month is different than this month
-    print('tester='+tester)
+    print('tester='+str(tester))
     if tester == (True):
         charList = dbm.getPeople()
         for char in charList:
